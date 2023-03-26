@@ -19,12 +19,10 @@ public class Exercicio07 {
 		for (int i = 0; i < vetorA.length; i++) {
 			System.out.println("Entre com o valor do vetorA na posicao: " + i);
 			vetorA[i] = ler.nextInt();
-
 		}
 		for (int i = 0; i < vetorB.length; i++) {
 			System.out.println("Entre com o valor do vetorB na posicao: " + i);
 			vetorB[i] = ler.nextInt();
-
 		}
 		for (int i = 0; i < vetorC.length; i++) {
 			vetorC[i] = vetorA[i] - vetorB[i];
@@ -44,5 +42,4 @@ public class Exercicio07 {
 			System.out.print(vetorC[i] + " ");
 		}
 	}
-
 }
