@@ -12,7 +12,7 @@ public class Exercicio07 {
 		 */
 
 		Scanner ler = new Scanner(System.in);
-		int[] vetorA = new int[5];
+		int[] vetorA = new int[10];
 		int[] vetorB = new int[vetorA.length];
 		int[] vetorC = new int[vetorB.length];
 
